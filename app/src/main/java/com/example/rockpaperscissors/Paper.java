@@ -2,7 +2,6 @@ package com.example.rockpaperscissors;
 
 public class Paper
 {
-    @Override
     public String comparewite()
     {
         if(other instanceof Paper)
