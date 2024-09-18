@@ -1,8 +1,9 @@
 package com.example.rockpaperscissors;
 
-public class Paper
+public class Paper extends GameElement
 {
-    public String comparewite()
+    @Override
+    public String compareWith(GameElement other)
     {
         if(other instanceof Paper)
         {

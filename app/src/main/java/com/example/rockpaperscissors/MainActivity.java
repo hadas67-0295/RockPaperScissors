@@ -1,4 +1,4 @@
-package com.shaihi.rockscissorpaper;
+package com.example.rockpaperscissors;
 
 import android.os.Bundle;
 import android.view.animation.AlphaAnimation;

@@ -1,14 +1,15 @@
 package com.example.rockpaperscissors;
 
-public class Rock
+public class Rock extends GameElement
 {
-    public String comparewite()
+    @Override
+    public String compareWith(GameElement other)
     {
-        if(other instanceof Rock)
+        if (other instanceof Rock)
         {
             return "it's a Tie!";
         }
-        else if(other instanceof Scissor )
+        else if (other instanceof Scissor)
         {
             return "You win!";
         }
